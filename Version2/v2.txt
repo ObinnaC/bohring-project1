@@ -1,2 +1,5 @@
-v2
+Version 2
 10/9/2022
+-Lewis Dot Diagram added
+-user can no longer input proton or electron counts above 118 or below 0 (protons stop at 1, electrons can reach 0 but not further)
+-periodic table input method created with simple textures
