@@ -1,0 +1,8 @@
+Version 3
+10/11/2022
+-Ian and Obi added a column each to the database
+-further columns to the database were planned
+-added code to scale buttons of the periodic table
+-added code to fix the font to be more readable
+-added text to Bohr and Lewis models to represent atomic symbol and element name
+-added code to calculate ionic charge
