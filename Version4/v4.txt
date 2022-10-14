@@ -1,2 +1,13 @@
 Version 4
 10/13/2022
+- all default names for sprite and room resources have been replaced
+- some placeholder "Drag & Drop" actions in the draw event for the nucleus have been replaced with proper GML code
+- added visually orbiting electrons around the Bohr model, thus completing one of the more complicated features of the project plan
+    - added code in the nucleus object that creates seven paths
+    - added an object that generates points within those seven paths, required the creation of a script and a timeline, and a second timeline only referenced in code
+    - added an object that assumes one of the seven paths and moves along it
+    - added code to properly space those electron objects evenly throughout the paths
+    - added code to all input methods that makes it so that electrons don't appear on screen unless the nucleus ecount is appropriate
+    - overall generation of paths and creation of electron objects takes about a second of real time, plans for a short loading screen on startup
+- added code in nucleus to draw seven circles representing the paths
+- added code to only allow the circles with at least one currently visible electron to be drawn
