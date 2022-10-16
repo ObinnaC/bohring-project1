@@ -1,0 +1,8 @@
+Version 5
+10/16/2022
+- added a loading screen so that the user does not enter any inputs while the paths from version 4 are being calculated
+- rearranged some of the objects in the room so that they don't overlap with eachother
+- updated where the nucleus object draws text representing the element name and charge so it's automatically placed underneath the furthest orbital
+- added a button that, once pressed, either starts or stops the animation of electrons orbiting around the Bohr model. The button is off by default.
+- changed the displayed name of the window, and added the ability to resize the window
+- added a row to the database representing molar masses, but due to inconsistencies with research, this may require extra attention in a future version
