@@ -1,0 +1,13 @@
+Version 6
+10/30/2022
+- Added a red highlight around the cells of the periodic table when the mouse hovers over them
+- Changed comments in code according to information obtained from recent meeting with Chris Harmon
+- Replaced placeholder text in top left with official display text to represent proton and electron counts, electron configurations, and average atomic mass
+- Moved the proton and electron add/subtract buttons to top left of screen near display
+- Added the isotope database
+  - The isotope database consists of encoded information about each of the known stable isotopes for each element
+  - The isotope database is separate from the main database
+  - Information in the isotope database is encoded for the sake of easily typing the information, it is automatically decoded in the draw event of the Nucleus object
+  - Data added for the first ten elements, the rest will be added at a later date due to the sheer amount of data to include
+  - Special case specifically programmed for Hydrogen's isotopes, named Deuterium and Tritium
+  - Isotope database information is decoded and drawn on the left of the screen with the rest of the display
