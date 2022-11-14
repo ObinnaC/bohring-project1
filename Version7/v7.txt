@@ -1,0 +1,27 @@
+Version 7
+11/13/2022
+- Finished the isotope database
+- Fixed placements of electrons on Bohr model to be paired up
+- Added fixes for electron configuration exceptions, updated Lewis model, Bohr model, and display accordingly
+  - With that fix, the Lewis model is now functionally 100% complete unless we find improvements we can make
+- Added columns to the database for atomic radii, state of matter at room temperature, ionization energy, electron affinity, and electronegativity
+- Added parts to the display to show the above information
+- Added the "TNR12" font, which is the same as the default "TNR16" font, but smaller
+- With the TNR12 font, added code to the display so that isotope information and electron configuration do not overlap with the Bohr model or periodic table inputs
+  - For elements 113 and beyond, the electron configuration is still long enough that it just barely touches the electrons if the orbit button is turned on, this is not
+    really a problem, and probably doesn't need to be changed, but the fact is still there and we may fix it anyways for the sake of completion
+  - This fix has completed the Bohr model requirements, and it is now functionally 100% complete unless we find improvements
+- Added the ionization database
+  - The ionization energy changes depending on how many fewer electrons the atom has than protons, numerous values for the ionization energies of most of the elements
+    at particular charges are known and documented, the ionization database represents these values
+  - The column in the main database represents the ionization energy in its neutral charge, the ionization database documents all known further values at various charges
+  - The ionization database was fully filled out with this update, and is complete, unlike the isotope database which took another update to finish
+  - The ionization database information is shown in the display, replacing the standard ionization energy level when an ion of an applicable charge is detected
+- Moved display over a few pixels to allow for more room
+- Moved proton and electron add and subtract buttons over that same amount to line up with display's new position
+- Added code to account for isotope exceptions to electron affinities
+  - Hydrogen, carbon, oxygen, sulfur, and iodine have different known electron affinities for a few of their isotopes
+  - Added code to account for these and place these values in the display
+  - These values are drawn in the new TNR12 font
+  - This final bit of programming completed all the requirements for the display, and it is also functionally 100% complete unless we find improvements
+- Current state of project: entirely functionally complete except for screenshot system. After that is implemented, fix textures. After that, project complete.
