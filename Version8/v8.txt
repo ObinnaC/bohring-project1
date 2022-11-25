@@ -1,0 +1,17 @@
+Version 8
+11/25/2022
+(THIS COULD POTENTIALLY BE THE FINAL VERSION)
+- Added logo
+- Reworked visuals to be more presentable
+- Added a gradient background
+- Added a yellow tileset background for the Display
+- Changed positions of add/subtract proton/electron buttons slightly
+- Managed Global Game Settings included with GMS for general application information
+- Added the screenshot button
+  - The screenshot button is at the bottom right of the screen
+  - Clicking it will save a screenshot to a file location on the user's computer
+  - Will display a message to the user about where the screenshot is saved (usually within the AppData/Local folder)
+  - Filenames include name of element and the charge
+  - Duplicate filenames will overwrite, but this is not an issue as there would therefore be no input change except for the orbit button (which is only visual decoration)
+  - This concludes the last of the major functional requirements
+- Unless texture changes or other additions are wanted, this will be the version submitted on Wednesday, 11/30/2022
