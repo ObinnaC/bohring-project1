@@ -1,0 +1,4 @@
+Version 8.75
+11/25/2022
+- Fixed a bug with file saving system and the screenshot button
+- Recreated exe file, accessible from main directory
